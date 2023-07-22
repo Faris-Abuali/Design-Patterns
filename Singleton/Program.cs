@@ -1,12 +1,13 @@
 ﻿
 
-using Singleton.Start;
+using Singleton.Thread_Safe;
 
 class Program
 {
-    static MemoryLogger logger;
+    //static MemoryLogger logger;
+    private static MemoryLoggerLazyLoading logger;
 
-    static void Main(string[] args)
+    static void Main()
     {
         AssignVoucher("faris.abuali@outlook.com", "Faris@123");
 
@@ -19,7 +20,7 @@ class Program
 
     static void AssignVoucher(string email, string voucher)
     {
-        logger = MemoryLogger.GetLogger;
+        logger = MemoryLoggerLazyLoading.GetLogger;
 
         // Logic here
         logger.LogInfo($"Voucher '{voucher}' assigned");
@@ -30,7 +31,7 @@ class Program
 
     static void UseVoucher(string voucher)
     {
-        logger = MemoryLogger.GetLogger;
+        logger = MemoryLoggerLazyLoading.GetLogger;
 
         // Logic here
         logger.LogWarning("3 attempts made to validate the voucher");

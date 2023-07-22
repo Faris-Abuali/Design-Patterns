@@ -1,6 +1,6 @@
 ﻿
 
-namespace Singleton.Start;
+namespace Singleton.Thread_Unsafe;
 
 public class MemoryLogger
 {

@@ -1,5 +1,5 @@
 ﻿
-namespace Singleton.Start;
+namespace Singleton.Thread_Safe;
 
 public class LogMessage
 {
