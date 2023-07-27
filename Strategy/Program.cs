@@ -1,4 +1,4 @@
-﻿using StrategyDesignPattern.Before;
+﻿using Strategy;
 
 while (true)
 {

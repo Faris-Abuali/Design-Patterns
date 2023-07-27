@@ -1,4 +1,4 @@
-﻿namespace StrategyDesignPattern.Before;
+﻿namespace Strategy;
 
 public interface INavigationStrategy
 {
