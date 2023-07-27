@@ -5,13 +5,15 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{AAD52E63-7E46-4919-9F37-76F6FD00CF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{29B77892-9B7B-4566-8317-4362B51D67BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{29B77892-9B7B-4566-8317-4362B51D67BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{6CE54DB7-7FB7-45B2-A10F-96AB65EA1E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{6CE54DB7-7FB7-45B2-A10F-96AB65EA1E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{845B05C9-A7EE-408A-A595-35A3B8077523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{845B05C9-A7EE-408A-A595-35A3B8077523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryStarterCode", "FactoryStarterCode\FactoryStarterCode.csproj", "{60261E70-4D2A-413A-A67D-56E7CE94AC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryStarterCode", "FactoryStarterCode\FactoryStarterCode.csproj", "{60261E70-4D2A-413A-A67D-56E7CE94AC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{DBA02A4D-06A9-4F82-A620-599D45673F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{60261E70-4D2A-413A-A67D-56E7CE94AC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60261E70-4D2A-413A-A67D-56E7CE94AC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60261E70-4D2A-413A-A67D-56E7CE94AC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA02A4D-06A9-4F82-A620-599D45673F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA02A4D-06A9-4F82-A620-599D45673F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA02A4D-06A9-4F82-A620-599D45673F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA02A4D-06A9-4F82-A620-599D45673F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
